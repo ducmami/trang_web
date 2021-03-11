@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://example.com"
+baseURL = "/"
 languageCode = "en-US"
 title = "Định Nguyễn"
 theme = "hugo-split-theme"
