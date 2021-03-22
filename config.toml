@@ -1,97 +1,44 @@
-# Site settings
-baseURL = "/"
-languageCode = "en-US"
-title = "Định Nguyễn"
-theme = "hugo-split-theme"
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
-
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
-
-# Copyright
-copyright = "&copy;2021 Định Nguyễn"
+baseurl                  = "https://dinhnn.com"           # Your domain name
+languageCode             = "en-us"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "Định Nguyễn"
+theme                    = "sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
 
 [params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "home"                           # What to call the home page link, link will not be rendered if empty
+    footerText           = "dinhnn.com by Định Nguyễn Ngọc."
 
-  # Metadata for search engines and social sharing
-  author = "Định Nguyễn"
-  description = "Cafe lover, amateur runner"
-  shareImage = "images/social.jpg"
-  twitterHandle = "ngocdinh"
+# Metadata for Open Graph and Twitter
+    description          = "Chém gió, viết nhảm!"               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "Định Nguyễn"
+    # rss                = ""
 
-  # Favicon
-  favicon = "favicon.ico"
+[[params.videoBackground.sources]]
+    source  = "/sample_video.mp4"
+    type    = "video/mp4"
+    poster  = "/background.png"
+[params.videoBackground]
+    overlay = "rgba(0, 0, 0, 0.4)" # optional
 
-  # Section - Visual
-  [params.visual]
+[[params.mainMenu]]
+    link = "posts"
+    text = "posts"
 
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "images/dinhnn-home.jpg"
-      position = "center center"
+[[params.mainMenu]]
+    link = "gallery"
+    text = "gallery"
 
-    # Video
-    [params.visual.video]
-      enable = false
-      mute = true
-      file = "videos/background.mp4"
-      # youtubeId = "dk9uNWPP7EA"
+[[params.mainMenu]]
+    link = "about"
+    text = "who is Định?"
 
-  # Links
-  #
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "Connect"
-
-      [[params.links.list1.link]]
-        text = "Blog"
-        url = "#"
-
-      [[params.links.list1.link]]
-        text = "Email"
-        url = "#"
-
-      [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
-
-  # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = "Social"
-
-      [[params.links.list2.link]]
-        text = "Twitter"
-        url = "#"
-
-      [[params.links.list2.link]]
-        text = "Instagram"
-        url = "#"
-
-      [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
-
-  # Links List #3
-  [[params.links]]
-    [params.links.list3]
-      heading = "Network"
-
-      [[params.links.list3.link]]
-        text = "Link One"
-        url = "#"
-
-      [[params.links.list3.link]]
-        text = "Link Two"
-        url = "#"
-
-      [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
-
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
-  # If you'd like to use the template without the attribution, you can check out
-  # the license option via the template author's website: https://onepagelove.com/split
+[imaging]
+    quality = 75
