@@ -13,7 +13,7 @@ pygmentsCodefences       = true
     dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
     favicon              = "sam.ico"
     homepage             = "home"                           # What to call the home page link, link will not be rendered if empty
-    footerText           = "dinhnn.com by Định Nguyễn Ngọc."
+    footerText           = "from Định with love!"
 
 # Metadata for Open Graph and Twitter
     description          = "Chém gió, viết nhảm!"               # Max 160 characters show in search results
