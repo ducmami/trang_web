@@ -1,4 +1,4 @@
-{{ $bundleRaw := resources.Get "sass/style.sass" | resources.ExecuteAsTemplate "css/main.tmp.css" . }}
+<!-- {{ $bundleRaw := resources.Get "sass/style.sass" | resources.ExecuteAsTemplate "css/main.tmp.css" . }}
 
 {{ if .Site.IsServer }}
 {{ $cssOpts := (dict "targetPath" "css/main.css" "enableSourceMap" true ) }}
@@ -9,8 +9,10 @@
 {{ $postCSSOpts := (dict "use" "autoprefixer" ) }}
 {{ $bundle := $bundleRaw | toCSS $cssOpts | postCSS $postCSSOpts | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous" media="screen">
-{{ end }}
+{{ end }} -->
 
+
+<link rel="stylesheet" href="css/main.css">
 <!-- Custom css -->
 {{ if .Site.IsServer }}
   {{ range .Site.Params.customCSS -}}
