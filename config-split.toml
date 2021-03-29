@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "/"
 languageCode = "en-US"
-title = "Định Nguyễn"
+title = "Ducmami"
 theme = "sam"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
@@ -9,15 +9,15 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 googleAnalytics = ""
 
 # Copyright
-copyright = "&copy;2021 Định Nguyễn"
+copyright = "&copy;2021 Ducmami"
 
 [params]
 
   # Metadata for search engines and social sharing
-  author = "Định Nguyễn"
+  author = "Ducmami"
   description = "Cafe lover, amateur runner"
   shareImage = "images/social.jpg"
-  twitterHandle = "ngocdinh"
+  twitterHandle = "ducmami"
 
   # Favicon
   favicon = "favicon.ico"
