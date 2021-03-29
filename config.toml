@@ -2,7 +2,7 @@ baseurl                  = "/"           # Your domain name
 languageCode             = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
-title                    = "Định Nguyễn"
+title                    = "Ducmami"
 theme                    = "sam"
 pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
@@ -13,12 +13,12 @@ pygmentsCodefences       = true
     dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
     favicon              = "sam.ico"
     homepage             = "home"                           # What to call the home page link, link will not be rendered if empty
-    footerText           = "from Định with love!"
+    footerText           = "from ducmami with love!"
 
 # Metadata for Open Graph and Twitter
     description          = "Chém gió, viết nhảm!"               # Max 160 characters show in search results
     images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
-    title                = "Định Nguyễn"
+    title                = "Ducmami"
     # rss                = ""
 
 [[params.videoBackground.sources]]
@@ -38,7 +38,7 @@ pygmentsCodefences       = true
 
 [[params.mainMenu]]
     link = "about"
-    text = "who is Định?"
+    text = "who is Ducmami?"
 
 [imaging]
     quality = 75
