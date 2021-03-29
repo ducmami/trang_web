@@ -3,7 +3,7 @@ title: "About"
 date: 2018-02-13T13:42:49-05:00
 ---
 
-Xin chào, mình là Định!
+Xin chào, mình là Đức!
 
 ##### Trang web sử dụng [Hugo](https://gohugo.io/), [Call me Sam](https://github.com/victoriadrake/hugo-theme-sam/), và [Cloudflare Pages](https://pages.cloudflare.com/).
 
